@@ -23,8 +23,6 @@ public class Register extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
-    // TODO
-
     public TextView Lg;
     public TextView Incorrect;
     public TextView FirstName;
@@ -54,9 +52,6 @@ public class Register extends AppCompatActivity {
         Reg = findViewById(R.id.reg);
         FirstName = findViewById(R.id.fname);
         LastName = findViewById(R.id.lname);
-
-        //final String remail = Email.getText().toString();
-        //final String rpass = Password.getText().toString();
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -93,7 +88,34 @@ public class Register extends AppCompatActivity {
 
 
     }
-    public void OnRegister(View view)
+   //changing some code here
+    /* public void OnRegister(View view)
+    {
+        mAuth.createUserWithEmailAndPassword(Email.getText().toString(),Password.getText().toString())
+                .addOnCompleteListener(Register.this,new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful())
+                        {
+                            Log.i("TAG", "createUserWithEmail:success");
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            Intent intent = new Intent(getApplicationContext(),LoginPage.class);
+                            Toasty.success(Register.this, "Registration Successful.",
+                                    Toast.LENGTH_LONG).show();
+                            startActivity(intent);
+                        }
+                        else
+                         {
+                            Log.i("TAG", "createUserWithEmail:failure", task.getException());
+                            Toasty.error(Register.this, "Registration failed.",
+                            Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+    }
+}*/
+    //Correct Code without errors
+     public void OnRegister(View view)
     {
         mAuth.createUserWithEmailAndPassword(Email.getText().toString(),Password.getText().toString())
                 .addOnCompleteListener(Register.this,new OnCompleteListener<AuthResult>() {
