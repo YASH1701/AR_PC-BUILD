@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0eeacdef013db5c70cd93962e3102615/core-runtime-2.0.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/0eeacdef013db5c70cd93962e3102615/core-runtime-2.0.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/d5d22d04f2bb7c63adfe1e7f447c49c9/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/d5d22d04f2bb7c63adfe1e7f447c49c9/core-runtime-2.0.0/res" />
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/d5d22d04f2bb7c63adfe1e7f447c49c9/core-runtime-2.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

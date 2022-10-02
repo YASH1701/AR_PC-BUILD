@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-auth:19.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e0025c644218c1b794fd2504630522d/firebase-auth-19.2.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/1e0025c644218c1b794fd2504630522d/firebase-auth-19.2.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/75291ee1a93f27ad45bcb6ef0080d8e8/firebase-auth-19.2.0/AndroidManifest.xml" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/75291ee1a93f27ad45bcb6ef0080d8e8/firebase-auth-19.2.0/res" />
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/75291ee1a93f27ad45bcb6ef0080d8e8/firebase-auth-19.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/modules-2/files-2.1/com.google.firebase/firebase-auth/19.2.0/75ea548fb72a3e52544b2dc4b7dfcfa914c02d7a/firebase-auth-19.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

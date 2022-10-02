@@ -1,0 +1,106 @@
+{
+  animations: [
+    {
+      path: 'sampledata/case/corsair_200r.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'case_material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'corsair_200r_COL.orig',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'corsair_200r_evee',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'corsair_200r_COL.orig',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/case/corsair_200r.fbx',
+    name: 'corsair_200r',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/case\\corsair_200r_COL.orig.jpg',
+      name: 'corsair_200r_COL.orig',
+      pipeline_name: 'textures/corsair_200r_COL.orig.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

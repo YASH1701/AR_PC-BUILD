@@ -1,0 +1,153 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'g skill trident z',
+        },
+      ],
+      path: 'sampledata/ram/g skill trident z.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #26',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+      },
+      {
+        metallic: 0,
+      },
+      {
+        roughness: 1,
+      },
+      {
+        opacity: null,
+      },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '02 - Default',
+      parameters: [
+        {
+          baseColor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+      },
+      {
+        metallic: 0,
+      },
+      {
+        roughness: 1,
+      },
+      {
+        opacity: null,
+      },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material #116',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+      },
+      {
+        metallic: 0,
+      },
+      {
+        roughness: 1,
+      },
+      {
+        opacity: null,
+      },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '03 - Default',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ram/g skill trident z.fbx',
+    name: 'g skill trident z',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/ram\\g skill trident z.fbm\\153621422315.png',
+      name: '153621422315',
+      pipeline_name: 'g skill trident z.fbm\\153621422315.png',
+    },
+    {
+      file: 'sampledata/ram\\g skill trident z.fbm\\FAVPNG_g-skill-computer-data-storage-ddr4-sdram-logo-ddr3-sdram_ssneA79C.png',
+      name: 'FAVPNG_g-skill-computer-data-storage-ddr4-sdram-logo-ddr3-sdram_ssneA79C',
+      pipeline_name: 'g skill trident z.fbm\\FAVPNG_g-skill-computer-data-storage-ddr4-sdram-logo-ddr3-sdram_ssneA79C.png',
+    },
+    {
+      file: 'sampledata/ram\\g skill trident z.fbm\\f0eb64e6535e4918a99352fc4a25c662.jpeg',
+      name: 'f0eb64e6535e4918a99352fc4a25c662',
+      pipeline_name: 'g skill trident z.fbm\\f0eb64e6535e4918a99352fc4a25c662.jpeg',
+    },
+  ],
+  version: '0.54:2',
+}

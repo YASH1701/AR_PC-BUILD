@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ar:core:1.14.0@aar">
+    <CLASSES>
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/e204c4d8354d253b5d4bcd1fe393bc86/core-1.14.0/AndroidManifest.xml" />
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/e204c4d8354d253b5d4bcd1fe393bc86/core-1.14.0/jars/classes.jar!/" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/e204c4d8354d253b5d4bcd1fe393bc86/core-1.14.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArPage">
+
+    <fragment android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:id="@+id/arfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="429dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cpu"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/cpua" />
+
+            <ImageView
+                android:id="@+id/ssd"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/ssda" />
+
+            <ImageView
+                android:id="@+id/ram"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/rama" />
+
+            <ImageView
+                android:id="@+id/motherboard"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/moth" />
+
+            <ImageView
+                android:id="@+id/gpua"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/gpua" />
+
+            <ImageView
+                android:id="@+id/hdd"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/hdda" />
+
+            <ImageView
+                android:id="@+id/smps"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/smpsa" />
+
+            <ImageView
+                android:id="@+id/fan"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/cpu_fana" />
+
+            <ImageView
+                android:id="@+id/casea"
+                android:layout_width="127dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/casea" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</FrameLayout>

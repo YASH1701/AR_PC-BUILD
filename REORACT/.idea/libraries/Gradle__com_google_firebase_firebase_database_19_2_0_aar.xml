@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database:19.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbba012f326879af7b1eae82554beef1/firebase-database-19.2.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/dbba012f326879af7b1eae82554beef1/firebase-database-19.2.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/0c8241a7b327cb68ebcab4f187d525d9/firebase-database-19.2.0/res" />
+      <root url="file://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/0c8241a7b327cb68ebcab4f187d525d9/firebase-database-19.2.0/AndroidManifest.xml" />
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/transforms-2/files-2.1/0c8241a7b327cb68ebcab4f187d525d9/firebase-database-19.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.2.0/bda77c37621ef4a9268924be507dc28e5328598c/firebase-database-19.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Program Files/Java/jdk-11.0.12/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.2.0/7ecd17c12939ca0a6e20f902c3f726d914fb3aa1/firebase-database-19.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

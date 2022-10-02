@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.1"
+    defaultConfig {
+        applicationId "com.godkiller.reoract"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 7
+        versionName "7.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'com.google.ar:core:1.14.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.14.0'
+    implementation 'com.google.ar.sceneform:core:1.14.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+}
+
+sceneform.asset('sampledata/inteli7/i7 9700K.obj',
+        'default',
+        'sampledata/inteli7/i7 9700K.sfa',
+        'src/main/res/raw/i7')
+
+sceneform.asset('sampledata/ssd/M2 Samsung EVO 970.obj',
+        'default',
+        'sampledata/ssd/M2 Samsung EVO 970.sfa',
+        'src/main/res/raw/m2samsungevo970')
+
+sceneform.asset('sampledata/ram/g skill trident z.fbx',
+        'default',
+        'sampledata/ram/g skill trident z.sfa',
+        'src/main/res/raw/gskilltridentz')
+
+sceneform.asset('sampledata/case/corsair_200r.fbx',
+        'default',
+        'sampledata/case/corsair_200r.sfa',
+        'src/main/res/raw/corsair_200r')
+
+sceneform.asset('sampledata/fan/corsairfan.fbx',
+        'default',
+        'sampledata/fan/corsairfan.sfa',
+        'src/main/res/raw/corsairfan')
+
+sceneform.asset('sampledata/smps/smps.fbx',
+        'default',
+        'sampledata/smps/smps.sfa',
+        'src/main/res/raw/smps')
+
+sceneform.asset('sampledata/video_screen.obj',
+        'sampledata/material.mat',
+        'sampledata/video_screen.sfa',
+        'src/main/res/raw/video_screen')
+
+sceneform.asset('sampledata/gpu/gpu.fbx',
+        'default',
+        'sampledata/gpu/gpu.sfa',
+        'src/main/res/raw/gpu')
+
+
+sceneform.asset('sampledata/hddv/hddv.fbx',
+        'default',
+        'sampledata/hdd/hdd.sfa',
+        'src/main/res/raw/hdd')
+
+
+sceneform.asset('sampledata/mother/motherbood.fbx',
+        'default',
+        'sampledata/mother/motherbood.sfa',
+        'src/main/res/raw/motherbood')

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852772715922",
+    "firebase_url": "https://reoract.firebaseio.com",
+    "project_id": "reoract",
+    "storage_bucket": "reoract.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852772715922:android:2042ebc8f507b13c",
+        "android_client_info": {
+          "package_name": "com.godkiller.reoract"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852772715922-n35kltnijq0gnl262ir47ec087p3k34k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.godkiller.reoract",
+            "certificate_hash": "5821078b84ccf558c3c207aa67f6d2506f5f7ef4"
+          }
+        },
+        {
+          "client_id": "852772715922-92mj5vileud7q73klg018r3haiaplgoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtkYBnGUFDxXS0KMAbXIWL88SXMTIy14c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852772715922-92mj5vileud7q73klg018r3haiaplgoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

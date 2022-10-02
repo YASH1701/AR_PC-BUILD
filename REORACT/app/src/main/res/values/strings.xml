@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">AR PC-BUILD</string>
+
+    <string name="title_activity_welcome1">Welcome1</string>
+    <string name="b1">Start Building</string>
+    <string name="b2">Previous Builds</string>
+    <string name="b3">Settings</string>
+    <string name="b4">Exit</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_naviwelcome">naviwelcome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="processors">CPU</string>
+    <string name="motherboard">MOTHERBOARD</string>
+    <string name="ram">RAM</string>
+    <string name="video_card">VIDEO_CARD</string>
+    <string name="cooling_fan">CPU_FAN</string>
+    <string name="HDD">HDD</string>
+    <string name="SSD">SSD</string>
+    <string name="Case">CASE</string>
+    <string name="smps">POWER SUPPLY</string>
+    <string name="select_components">Select Components</string>
+    <string name="login">Login</string>
+    <string name="email">EMAIL</string>
+    <string name="INITTIP">Place the Bolts in the Case As Shown</string>
+    <string name="MOTHERTIP">Place the Motherboard in the case and align the bolts with Motherboard As Shown</string>
+    <string name="CPUTIP">Gently Hold the processor And Carefully place the Processor in the Socket as Shown.</string>
+    <string name="GPUTIP">Gently Open the slots for Video Card as shown and place the Card Gently in the slot as Shown</string>
+    <string name="RAMTIP">Gently Open the slots for RAM as shown and place the Card Gently in the slot as Shown</string>
+    <string name="FANTIP">Place the fan in the case at the position as Shown</string>
+    <string name="SSDTIP">Place the SSD in the tray and insert the tray in the case as Shown and tighten the bolts</string>
+    <string name="HDDTIP">Place the HDD in the tray and insert the tray in the case as Shown and tighten the bolts</string>
+    <string name="SMPSTIP">Place the smps in the case and tighten the bolts as Shown and complete the necessary Cabling</string>
+
+    <string-array name="processors">
+        <item>Intel Core i7 9700K Desktop 9th Generation Processor 8 Cores up to 4.9 GHz Turbo Unlocked LGA1151 300 Series 95W</item>
+    </string-array>
+    <string-array name="motherboard">
+        <item>ASUS Prime B360-Plus Intel LGA-1151 ATX Motherboard with LED Lighting DDR4 2666MHz Dual M.2 Intel Optane Memory Ready HDMI SATA and USB 3.1</item>
+    </string-array>
+    <string-array name="ram">
+        <item>G.SKILL F43000C16S 8GTZR 8GB Internal Memory</item>
+    </string-array>
+    <string-array name="cooling_fan">
+        <item>Corsair SP120 120 mm Low Noise High Pressure Multi-Colour RGB LED Case Fan </item>
+    </string-array>
+    <string-array name="HDD">
+        <item>Seagate 4TB Barracuda SATA 6Gb/s 256MB Cache Desktop 3.5 Inch Internal Hard Drive</item>
+    </string-array>
+    <string-array name="SSD">
+        <item>Samsung 970 Evo 500GB NVME M.2 High Speed Solid State Drive with V-Nand</item>
+    </string-array>
+    <string-array name="Case">
+        <item>Corsair CC-9011023-WW Carbide Series 200R ATX Case</item>
+    </string-array>
+    <string-array name="smps">
+        <item>Antec VP650 P Plus 650 Watt 80 Plus Power Supply with 85% Efficiency</item>
+    </string-array>
+    <string-array name="video_card">
+        <item>MSI GTX 1050 Ti 4G OCV1 Gaming Graphic Card</item>
+    </string-array>
+
+
+</resources>

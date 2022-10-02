@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebacka"
+    tools:context=".links">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:background="@drawable/cpuo" />
+
+            <ImageButton
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:background="@drawable/ssdo" />
+
+            <ImageButton
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:background="@drawable/ramo"  />
+
+            <ImageButton
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:background="@drawable/smps" />
+
+            <ImageButton
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:background="@drawable/caseo" />
+
+            <ImageButton
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:background="@drawable/cpu_fan"  />
+
+            <ImageButton
+                android:id="@+id/g"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+            <ImageButton
+                android:id="@+id/h"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

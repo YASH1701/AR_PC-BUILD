@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'i7_9700K2',
+      parameters: [
+        {
+          baseColor: 'i7_9700K',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/inteli7/i7 9700K.obj',
+    name: 'i7 9700K',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/inteli7\\i7_9700K.png',
+      name: 'i7_9700K',
+      pipeline_name: 'i7_9700K.png',
+    },
+  ],
+  version: '0.54:2',
+}
